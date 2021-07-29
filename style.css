@@ -1,5 +1,6 @@
 /* font style */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 /* global styles */
 
@@ -21,4 +22,9 @@
 
 .alert-color {
     color: #E76F51;
+}
+
+.danger-font-style {
+    font-family: 'Luckiest Guy', cursive;
+
 }
