@@ -21,36 +21,41 @@
 <body>
     <!-- header start -->
     <header class="bg-color ">
-        <section class="container d-flex p-5 ">
-            <div class="w-50 pt-5 me-5 text-light">
-                <p>Computer-controlled digital transistorized with electronic advance</p>
-                <h1>Honda CBR 300R</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button type="button" class="btn button-link text-light" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Purchase</button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn button-link text-light">Save changes</button>
+        <section class="container">
+            <div class="row d-flex align-items-center pt-5">
+                <div class="col-lg-5 pt-5 me-5 text-light">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h1>Honda CBR 300R</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                    <button type="button" class="btn button-link text-light px-5" data-bs-toggle="modal"
+                        data-bs-target="#Modal">Purchase</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="ModalLabel">Honda CBR 300</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn button-link text-light">Save changes</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img src="images/header-bike.png" alt="" class="img-fluid">
+                <div class="col-lg-6 pt-5">
+                    <img src="images/header-bike.png" alt="" class="img-fluid">
+                </div>
             </div>
         </section>
     </header>
@@ -64,7 +69,7 @@
                 <h1>Fetured Bikes 2021</h1>
                 <p>Best bike collection</p>
             </div>
-            <div class="row my-5 gx-5">
+            <div class="row my-5 g-5">
                 <div class="col-lg-3">
                     <img class="filter-img img-fluid" src="images/feature-bike.jpg" alt="">
                 </div>
@@ -82,8 +87,8 @@
         <section class="container my-5 pt-5">
             <div class="h1 text-center">Happy <span class="alert-color"> Clients says</span></div>
 
-            <div class="row my-4  g-4">
-                <div class="col-lg-4 text-center p-3 border border-1">
+            <div class="row my-5 g-5">
+                <div class="col-lg-4 text-center p-3 border border-1 rounded">
                     <img src="images/user-1.png" alt="" class="my-5 img-fluid w-50">
                     <p>Slate helps you see how
                         many more days you need
@@ -97,7 +102,7 @@
                     <p class="fw-bold mt-3">Regina Miles</p>
                     <p class="fw-bold">Banker</p>
                 </div>
-                <div class="col-lg-4 text-center p-3 border border-1">
+                <div class="col-lg-4 text-center p-3 border border-1 rounded">
                     <img src="images/user-2.png" alt="" class="my-5 img-fluid w-50">
                     <p>Slate helps you see how
                         many more days you need
@@ -130,15 +135,15 @@
         <!-- happy client end -->
 
         <!-- FAQ start -->
-        <section class="container  my-5 pt-5">
+        <section class="container my-5 pt-5">
             <div class="h1 text-center">
                 Frequently Asked <span class="alert-color">Questions</span>
             </div>
-            <div class="d-flex my-5">
-                <div>
-                    <img class="w-100 img-fluid p-5" src="images/faq.png" alt="">
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    <img class="img-fluid p-5" src="images/faq.png" alt="">
                 </div>
-                <div class="p-5 mx-5 w-75">
+                <div class="col-lg-6 p-5">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
