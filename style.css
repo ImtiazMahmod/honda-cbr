@@ -18,3 +18,7 @@
 .filter-img {
     filter: grayscale(100%);
 }
+
+.alert-color {
+    color: #E76F51;
+}
