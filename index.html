@@ -21,8 +21,66 @@
 <body>
     <!-- header start -->
     <header class="bg-color">
+        <!-- nav bar start -->
+        <nav class="navbar navbar-expand-lg navbar-dark d-none d-md-block">
+            <div class="container pt-4 gx-5 flex-column align-items-end">
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="ms-5">
+                        <a href="#">
+                            <button class="btn button-link text-light px-3" type="button">Login</button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-dark  d-sm-block d-md-none">
+            <div class="container justify-content-end pt-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="p-4">
+                <ul class="nav flex-column text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- nav bar end -->
+
         <section class="container">
-            <div class="row d-flex align-items-center pt-5">
+            <div class="row d-flex align-items-center ">
                 <div class="col-lg-5 pt-5 me-5">
                     <div class="text-light">
                         <p>Computer-controlled digital transistorized with electronic advance</p>
@@ -107,7 +165,7 @@
             </div>
         </section>
         <!-- feature-bike end -->
-        >
+
 
         <!-- happy client start -->
         <section class="container">
@@ -156,7 +214,7 @@
                         <div class="card-body text-center">
 
 
-                            <img src="images/user-3.jpg" alt="" class="my-5 img-fluid w-50 round">
+                            <img src="images/user-3.png" alt="" class="my-5 img-fluid w-50">
                             <p class="card-text">Slate helps you see how
                                 many more days you need
                                 to work to reach your financial
@@ -328,7 +386,32 @@
     <!-- main end -->
 
     <!-- footer start -->
-    <footer></footer>
+    <footer class="bg-dark ">
+        <section class="container row">
+            <div class="col-md-9">
+                <div class="pt-5 ">
+                    <a class="text-decoration-none text-light pe-4" href="#">DownloadNow</a>
+                    <a class="text-decoration-none text-light" href="#">Licence</a>
+                </div>
+                <div>
+                    <a class="text-decoration-none text-light pe-4" href="#">About</a>
+                    <a class="text-decoration-none text-light pe-4" href="#">Features</a>
+                    <a class="text-decoration-none text-light pe-4" href="#">Pricing</a>
+                    <a class="text-decoration-none text-light pe-4" href="#">Careers</a>
+                    <a class="text-decoration-none text-light pe-4" href="#">Help</a>
+                    <a class="text-decoration-none text-light pe-4" href="#">Privacy Policy</a>
+                </div>
+
+            </div>
+            <div class="text-light fw-lighter col-md-3 py-5">
+                <h3>Get the App</h3>
+                <img width="133px" src="images/app-store-png.png" alt="">
+            </div>
+            <div class="text-light pb-5 fw-light">
+                <p>&copy; 2021 Hero. All rights reserved.</p>
+            </div>
+        </section>
+    </footer>
     <!-- footer end -->
 
     <!-- bootstrap js -->
